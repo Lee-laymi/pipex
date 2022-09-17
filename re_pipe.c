@@ -6,7 +6,7 @@
 /*   By: skrairab <Marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/11 00:04:26 by skrairab          #+#    #+#             */
-/*   Updated: 2022/09/16 23:57:08 by skrairab         ###   ########.fr       */
+/*   Updated: 2022/09/17 21:59:49 by skrairab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ void	re_pipe(int argc, char **argv, char **envp)
 		runcmd(argv, envp, fdc);
 		exit(127);
 	}
-	if (pidt > 0)
+	else if (pidt > 0)
 	{
 		waitpid(pidt, &e_status, 0);
 		error_check(e_status);

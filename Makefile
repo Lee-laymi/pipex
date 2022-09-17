@@ -6,7 +6,7 @@
 #    By: skrairab <Marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/11 00:03:36 by skrairab          #+#    #+#              #
-#    Updated: 2022/09/15 22:42:06 by skrairab         ###   ########.fr        #
+#    Updated: 2022/09/17 22:04:06 by skrairab         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,8 @@ SRCS = ft_split.c\
 	pipex.c\
 	re_pipe.c\
 	getpath.c\
-	runcmd.c
+	runcmd.c\
+	check_access2.c
 
 BONUS = ft_split.c\
 	ft_strjoin.c\
@@ -28,7 +29,8 @@ BONUS = ft_split.c\
 	pipex.c\
 	re_pipe.c\
 	getpath.c\
-	runcmd.c
+	runcmd.c\
+	check_access2.c
 
 SRCS_BONUS = $(BONUS)
 
